@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Roboto:wght@900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: #CCF0FF !important;
+}
+nav{
+    font-family: 'Montserrat', sans-serif;
+}
+.whatWeDo{
+    margin-top: 3rem;
+}
+
+.title{
+    font-size: xx-large;
+    font-weight: bolder;
+    color: #707070;
+    font-weight: bolder;
+    font-family: 'Roboto', sans-serif;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.center-vertically{
+    display: flex;
+    align-items: center;
+}
+.center-horizontally{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.pricing .pricing_table{
+    color:#fff;
+    margin:10px 0;
+    background:#555;
+    text-align: center;
+    transition: all 0.30s linear 0s;
+}
+.pricing .pricing_table:hover{
+    background: #46B8DA;
+}
+.pricing .pricing_table.active,
+.pricing .pricing_table .pricing_table_plan .btn-info.active{
+    background: #46B8DA;
+}
+.pricing .pricing_table:hover .pricing_table_plan .btn-info{
+    background:#46B8DA;
+}
+.pricing .pricing_table_header{
+    padding:40px;
+}
+.pricing .pricing_table_header > i{
+    display: block;
+    font-size:40px;
+}
+.pricing .pricing_table_header .title_pricing{
+    display:block;
+    text-transform: capitalize;
+}
+.pricing .pricing_table_header .price-plan{
+    display:block;
+}
+.pricing .pricing_table_header .price-plan i{
+    font-size:16px;
+}
+.pricing .pricing_table_header .price{
+    font-size:40px;
+}
+.pricing .pricing_table_header .monthly_plan{
+    font-size:20px;
+}
+.pricing .pricing_table .pricing_table_plan{
+    border-top-right-radius:30px;
+    border-top-left-radius:30px;
+    padding:40px 20px;
+    background:#222;
+}
+.pricing .pricing_table .pricing_table_plan ul{
+    margin:0 0 50px;
+    padding:0;
+}
+.pricing .pricing_table .pricing_table_plan ul li{
+    list-style:none;
+    margin:15px 0;
+}
+.pricing .pricing_table .pricing_table_plan .btn-info{
+    padding:8px 40px;
+    background: transparent;
+    transition: all 0.30s linear 0s;
+}
+
+
+
+
+
+
+
+
+
+
+
+footer ul {
+    margin: 0px;
+    padding: 0px;
+}
+footer.footer-section {
+  background: #fff;
+  position: relative;
+}
+footer .footer-content {
+  position: relative;
+  z-index: 2;
+}
+footer .footer-pattern img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 330px;
+  background-size: cover;
+  background-position: 100% 100%;
+}
+footer .footer-logo {
+  margin-bottom: 30px;
+}
+footer .footer-logo img {
+    max-width: 200px;
+}
+footer .footer-text p {
+  margin-bottom: 14px;
+  font-size: 14px;
+      color: #7e7e7e;
+  line-height: 28px;
+}
+footer .footer-social-icon span {
+  color: #000;
+  display: block;
+  font-size: 20px;
+  font-weight: 700;
+  font-family: 'Poppins', sans-serif;
+  margin-bottom: 20px;
+}
+footer .footer-social-icon a {
+  color: #000;
+  font-size: 16px;
+  margin-right: 15px;
+}
+footer .footer-social-icon i {
+  height: 40px;
+  width: 40px;
+  text-align: center;
+  line-height: 38px;
+  border-radius: 50%;
+}
+footer .facebook-bg{
+  background: #3B5998;
+}
+footer .twitter-bg{
+  background: #55ACEE;
+}
+footer .google-bg{
+  background: #DD4B39;
+}
+footer .footer-widget-heading h3 {
+  color: #000;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 40px;
+  position: relative;
+}
+footer .footer-widget-heading h3::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -15px;
+  height: 2px;
+  width: 50px;
+  background: #ff5e14;
+}
+footer .footer-widget ul li {
+  display: inline-block;
+  float: left;
+  width: 50%;
+  margin-bottom: 12px;
+}
+footer .footer-widget ul li a:hover{
+  color: #ff5e14;
+}
+footer .footer-widget ul li a {
+  color: #878787;
+  text-transform: capitalize;
+}
+footer .subscribe-form {
+  position: relative;
+  overflow: hidden;
+}
+footer .subscribe-form input {
+  width: 100%;
+  padding: 14px 28px;
+  background: #2E2E2E;
+  border: 1px solid #2E2E2E;
+  color: #fff;
+}
+footer .subscribe-form button {
+    position: absolute;
+    right: 0;
+    background: #ff5e14;
+    padding: 13px 20px;
+    border: 1px solid #ff5e14;
+    top: 0;
+    bottom: 0;
+}
+footer .subscribe-form button i {
+  color: #000;
+  font-size: 22px;
+  transform: rotate(-6deg);
+}
